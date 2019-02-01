@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script>
-      document.title.innerHTML = window.location.href
+      window.onload = document.title = "ISP Journal " + window.location.pathname.substring(1).replace(/-/g, "/")
     </script>
   </head>
   <body>
