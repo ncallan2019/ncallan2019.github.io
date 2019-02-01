@@ -28,3 +28,14 @@ p.long {
 body > p:nth-of-type(1) {
   margin-top: 40px;
 }
+
+@media print {
+  :root {
+    --main-bg-color: #FFF;
+    --main-text-color: #000;
+  }
+  
+  .nav {
+    display: none;
+  }
+}
