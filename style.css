@@ -17,3 +17,8 @@ html {
 p.long {
   text-indent: 5em;
 }
+
+#date {
+  position: absolute;
+  right: 8px;
+}
