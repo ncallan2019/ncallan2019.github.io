@@ -11,9 +11,9 @@ html {
 
 *::selection {
   background-color: #C96480;
-  color: #23005d;
+  color: #7e94b6;
 }
 
-p {
+p.long {
   text-indent: 5em;
 }
