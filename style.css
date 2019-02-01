@@ -1,0 +1,15 @@
+:root {
+  --main-bg-color: #120030;
+  --main-text-color: #ccc;
+}
+
+html {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'B612 Mono', monospace;
+}
+
+*::selection {
+  background-color: #C96480;
+  color: #23005d;
+}
