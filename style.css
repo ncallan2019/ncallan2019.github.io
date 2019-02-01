@@ -13,3 +13,7 @@ html {
   background-color: #C96480;
   color: #23005d;
 }
+
+p {
+  text-indent: 5em;
+}
