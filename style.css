@@ -22,3 +22,7 @@ p.long {
   position: absolute;
   right: 8px;
 }
+
+body > p:first-child {
+  margin-top: 200%;
+}
