@@ -21,8 +21,9 @@ p.long {
 #date {
   position: absolute;
   right: 8px;
+  font-weight: bold;
 }
 
-body > p:first-child {
-  margin-top: 200%;
+body > p:nth-of-type(1) {
+  margin-top: 40px;
 }
