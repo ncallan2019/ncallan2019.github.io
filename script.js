@@ -1,4 +1,6 @@
-
+entries = [
+  "2/1/19"
+];
 
 window.onload = a;
 
@@ -12,7 +14,7 @@ function a() {
   
   for (var key in p) {
     if (p.hasOwnProperty(key)) {
-        .innerHTML+="<option>dfdf</option>"
-    }
-  }
-}
+        .innerHTML+="<option>dfdf</option>";
+    };
+  };
+};
