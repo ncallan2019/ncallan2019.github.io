@@ -1,5 +1,6 @@
 entries = [
-  "2/1/19"
+  "2/1/19",
+  "2/2/19"
 ];
 
 window.onload = a;
@@ -12,9 +13,5 @@ function a() {
   top = document.getElementsByTagName("select").item(0)
   bottom = document.getElementsByTagName("select").item(1)
   
-  for (var key in p) {
-    if (p.hasOwnProperty(key)) {
-        .innerHTML+="<option>dfdf</option>";
-    };
-  };
+  entries.forEach(function(item) {top.innerHTML += "<option value=\"" + item.replace(/\//g, "-") + "\">" + item + "</option>"});
 };
