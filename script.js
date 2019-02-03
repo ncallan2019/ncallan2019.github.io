@@ -11,11 +11,14 @@ function a() {
   document.getElementById("date").innerHTML = x;
   
   var sel1 = document.getElementById('topNav');
+  sel1.addEventListener(change, function() {window.location.pathname = this.options[this.selectedIndex].value;});
   var sel2 = document.getElementById('bottomNav');
+  sel2.addEventListener(change, function() {window.location.pathname = this.options[this.selectedIndex].value;});
+  
   for (var i = 0; i < entries.length; i++) {
     var opt = document.createElement('option');
-    opt.innerHTML = entries[i];
-    opt.value = entries[i];
+    opt.text = entries[i];
+    opt.value = entries[i].replace(/\//g, "-");
     sel1.appendChild(opt);
     sel2.appendChild(opt)
   };
