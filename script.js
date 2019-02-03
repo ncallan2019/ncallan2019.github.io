@@ -12,8 +12,8 @@ function a() {
   
   var sel1 = document.getElementById('topNav');
   sel1.addEventListener("change", function() {window.location.pathname = this.options[this.selectedIndex].value;});
-  //var sel2 = document.getElementById('bottomNav');
-  //sel2.addEventListener("change", function() {window.location.pathname = this.options[this.selectedIndex].value;});
+  var sel2 = document.getElementById('bottomNav');
+  sel2.addEventListener("change", function() {window.location.pathname = this.options[this.selectedIndex].value;});
   
   for (var i = 0; i < entries.length; i++) {
     var opt = document.createElement('option');
