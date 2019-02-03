@@ -20,7 +20,7 @@ function a() {
     opt.text = entries[i];
     opt.value = entries[i].replace(/\//g, "-");
     sel1.appendChild(opt);
-    //sel2.appendChild(opt);
+    sel2.appendChild(opt);
   };
   /*var topNav = document.getElementsByTagName("select").item(0)
   var bottomNav = document.getElementsByTagName("select").item(1)
