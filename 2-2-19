@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ISP Journal</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612:400,700i" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <select id="topNav">
+        <option selected disabled hidden>Choose...</option>
+      </select>
+      <hr>
+    </div>
+    <span id="date">-/--/--</span>
+    
+    <p>This is a paragraph. It has many words. My name is Nick. I like:</p>
+    
+    <ol>
+      <li>Dogs</li>
+      <li>Cats</li>
+      <li>Food</li>
+    </ol>
+    
+    <!-- <div class="nav">
+      <select id="bottomNav">
+        <option selected disabled hidden>Choose...</option>
+      </select> -->
+    </div>
+  </body>
+</html>
