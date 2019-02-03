@@ -10,14 +10,13 @@ function a() {
   document.title = "ISP Journal " + x;
   document.getElementById("date").innerHTML = x;
   
-  var cuisines = ["Chinese","Indian"];     
   var sel = document.getElementById('topNav');
-  for (var i = 0; i < cuisines.length; i++) {
+  for (var i = 0; i < entries.length; i++) {
     var opt = document.createElement('option');
-    opt.innerHTML = cuisines[i];
-    opt.value = cuisines[i];
+    opt.innerHTML = entries[i];
+    opt.value = entries[i];
     sel.appendChild(opt);
-  }
+  };
   /*var topNav = document.getElementsByTagName("select").item(0)
   var bottomNav = document.getElementsByTagName("select").item(1)
   
