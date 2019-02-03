@@ -9,7 +9,7 @@
   </head>
   <body lang="en">
     <div class="nav">
-      <select onchange="window.location.pathname = self.value">
+      <select onchange="window.location.pathname = this.options[this.selectedIndex].value;">
         <option selected disabled hidden>Choose...</option>
       </select>
       <hr>
