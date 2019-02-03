@@ -10,8 +10,8 @@ function a() {
   document.title = "ISP Journal " + x;
   document.getElementById("date").innerHTML = x;
   
-  top = document.getElementsByTagName("select").item(0)
-  bottom = document.getElementsByTagName("select").item(1)
+  var topNav = document.getElementsByTagName("select").item(0)
+  var bottomNav = document.getElementsByTagName("select").item(1)
   
-  entries.forEach(function(item) {top.innerHTML += "<option value=\"" + item.replace(/\//g, "-") + "\">" + item + "</option>"});
+  entries.forEach(function(item) {d = document.createElement("option"); d.text = item; d.value = item.replace(/\//g, "-"); topNav.add(d); bottomNav.add(d); console.log(d);});
 };
