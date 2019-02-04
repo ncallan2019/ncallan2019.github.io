@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ISP Journal</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612:400,700i" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+    function showHTML() {
+      document.getElementById("html").style.display = ""
+      document.getElementById("source").style.display = "none"
+    }
+    
+    function showSource() {
+      document.getElementById("html").style.display = "none"
+      document.getElementById("source").style.display = ""
+    }
+    <script>
+  </head>
+  <body>
+    <div class="nav">
+      <select id="topNav">
+        <option selected disabled hidden>Choose...</option>
+      </select>
+      <hr>
+    </div>
+    
+    <button onclick="showHTML()">Show HTML</button>
+    <button onclick="showSource()">Show Source</button>
+    
+    <textarea id="inp"></textarea>
+    <div id="html"></div>
+    <div id="source"></div>
+    
+    <!-- <div class="nav">
+      <select id="bottomNav">
+        <option selected disabled hidden>Choose...</option>
+      </select> -->
+    </div>
+  </body>
+</html>
